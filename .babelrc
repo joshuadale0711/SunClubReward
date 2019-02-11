@@ -1,0 +1,21 @@
+{
+  "presets": ["react-native"],
+  "plugins": [
+    ["module-resolver", {
+      "alias": {
+        "components": "rnSunClubRewards/src/components",
+        "constants": "rnSunClubRewards/src/constants",
+        "layouts": "rnSunClubRewards/src/layouts",
+        "reducers": "rnSunClubRewards/src/reducers",
+        "actions": "rnSunClubRewards/src/actions",
+        "images": "rnSunClubRewards/src/resources/images",
+        "fonts": "rnSunClubRewards/src/resources/fonts",
+        "resources": "rnSunClubRewards/src/resources",
+        "api": "rnSunClubRewards/src/api",
+	"model": "rnSunClubRewards/src/model",
+	"utils": "rnSunClubRewards/src/utils"
+      }
+    }],
+    "transform-decorators-legacy"
+  ]
+}
